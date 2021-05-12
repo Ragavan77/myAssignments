@@ -19,6 +19,7 @@ public class MissingElements {
 			//2!=3
 			//3!=4
 			//4!=4
+			//Condition gets false & and print 4+1=5 in syso & BReak the loop
 		  {
 			  System.out.println("Missing Array is " + (arr[i]+1));
 			  break;
