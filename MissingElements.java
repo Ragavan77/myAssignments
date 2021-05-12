@@ -23,23 +23,8 @@ public class MissingElements {
 			  System.out.println("Missing Array is " + (arr[i]+1));
 			  break;
 		  }
-	/*
-		for(int j=0; j<=arr.length;j++)
-		{
-			System.out.println(arr[j]);
-			if( j!=arr[j])
-			{
-				System.out.println(arr[j]);
-				break;
-			}
-			
-		}	
-	*/	}
+	
 		
-		
-		
-		//int[] sortedData=arr;
-		//System.out.println(sortedData);
 		}
 
 	
