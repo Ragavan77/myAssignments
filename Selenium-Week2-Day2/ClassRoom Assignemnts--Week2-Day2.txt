@@ -1,0 +1,29 @@
+Xpath for Combo Boxes:
+
+1.Leads-->Find Leads 
+	Write xpath for first resulting lead id
+
+Ans:(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[1]
+
+2. Leads --> Merge Leads	
+	Write xpath for From Lead icon and To Lead icon
+Ans: //table[@id='widget_ComboBox_partyIdFrom']/following-sibling::a/img
+//table[@id='widget_ComboBox_partyIdTo']/following-sibling::a/img
+ 
+3. Write xpath for multi select combo box
+Ans://option[text()='Select your programs']
+
+
+Drop down list
+Elder to younger Sibling
+(//option[@value='2']/preceding-sibling::option)[2]---Selenium
+
+Younger to Elder Sibling
+(//option[@value='2']/following-sibling::option)[1]--UFT
+
+Garnd parent to Grand Child:
+
+( //div[@class='example']//option)[5]---Load Runner
+
+
+
