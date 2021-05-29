@@ -20,7 +20,7 @@ public class SortingUsingCollection {
 		//sort the array	
 		Arrays.sort(input);
 		
-		/*
+		/*Method1
 		 * Sort Array in descending order using collections Arrays.sort(input,
 		 * System.out.printf( Arrays.toString(input));
 		 * Collections.reverseOrder()); 
@@ -33,7 +33,7 @@ public class SortingUsingCollection {
 		}
 
 		
-		
+		//mwthod2
 		ArrayList<String> newSt = new ArrayList<String>();
 		newSt.add("HCL");
 		newSt.add("Wipro");
@@ -47,7 +47,7 @@ public class SortingUsingCollection {
 		}
 
 		
-		
+		//Method3
 		for (String eachValue : newSt) {
 
 			// System.out.println(eachValue);
